@@ -1,0 +1,12 @@
+[package]
+name = "wav_fill"
+version = "0.1.0"
+authors = ["Chen Weiguang <chen.weiguang@gmail.com>"]
+
+[lib]
+name = "wav_fill"
+path = "src/lib.rs"
+crate-type = [ "staticlib", "dylib" ]
+
+[dependencies]
+hound = "=3.1.0"
